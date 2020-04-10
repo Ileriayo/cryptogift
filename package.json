@@ -1,6 +1,9 @@
 {
   "name": "cryptogift",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.13.x"
+  },
   "private": true,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",

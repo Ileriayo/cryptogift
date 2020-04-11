@@ -17,7 +17,7 @@ const Hero = () => {
             based on occasion using BTC, ETH and LTC
           </h3>
 
-          <div className="flex flex-col justify-center lg:max-w-md bg-purple-900">
+          <form className="flex flex-col justify-center lg:max-w-md bg-purple-900">
             <label
               htmlFor="email"
               className="text-white xxs:text-base sm:text-xl flex flex-col font-medium"
@@ -26,6 +26,7 @@ const Hero = () => {
               <input
                 type="text"
                 id="email"
+                required
                 placeholder="example@email.com"
                 className="rounded text-white p-5 mt-3 text-purple-900 focus:outline-none"
               />
@@ -33,8 +34,7 @@ const Hero = () => {
 
             <div className="flex flex-row xxs:justify-center xxs:content-center lg:justify-between mt-4">
               <button
-                type="button"
-                onClick=""
+                type="submit"
                 className="border-transparent border bg-green-600 hover:bg-green-700 text-white font-medium py-3 xxs:px-16 sm:px-24 flex items-center rounded uppercase focus:outline-none"
               >
                 <span className="xxs:text-xl sm:text-2xl">gift</span>
@@ -44,13 +44,12 @@ const Hero = () => {
 
               <button
                 type="button"
-                onClick=""
                 className="border-solid border hover:text-gray-400 text-white text-sm font-medium py-3 xxs:px-6 sm:px-12 lg:px-10 flex items-center rounded uppercase focus:outline-none"
               >
                 <span className="xxs:text-xl sm:text-2xl">request</span>
               </button>
             </div>
-          </div>
+          </form>
         </section>
 
         <section className="">

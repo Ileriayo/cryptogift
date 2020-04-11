@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="flex flex-row xxs:justify-center xxs:content-center lg:justify-between mt-4">
               <button
                 type="submit"
-                className="border-transparent border bg-green-600 hover:bg-green-700 text-white font-medium py-3 xxs:px-16 sm:px-24 flex items-center rounded uppercase focus:outline-none"
+                className="border-transparent border bg-green-600 hover:bg-green-700 text-white font-medium py-3 xxs:px-16 sm:px-24 flex items-center rounded uppercase focus:outline-none focus:shadow-outline"
               >
                 <span className="xxs:text-xl sm:text-2xl">gift</span>
               </button>
@@ -44,7 +44,7 @@ const Hero = () => {
 
               <button
                 type="button"
-                className="border-solid border hover:text-gray-400 text-white text-sm font-medium py-3 xxs:px-6 sm:px-12 lg:px-10 flex items-center rounded uppercase focus:outline-none"
+                className="border-solid border hover:text-gray-400 text-white text-sm font-medium py-3 xxs:px-6 sm:px-12 lg:px-10 flex items-center rounded uppercase focus:outline-none focus:shadow-outline"
               >
                 <span className="xxs:text-xl sm:text-2xl">request</span>
               </button>

@@ -1,0 +1,21 @@
+{
+  "name": "Cryptogift",
+  "description": "Gift crypto, recharge cards, vouchers, giftcards to individuals based on occasion using BTC, ETH and LTC",
+  "repository": "https://github.com/Ileriayo/cryptogift",
+  "website": "https://cryptogift.herokuapp.com",
+  "logo": "",
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ],
+  "keywords": [
+    "crypto",
+    "currency",
+    "gift",
+    "blockchain",
+    "react",
+    "vouchers",
+    "airtime"
+  ]
+}
